@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Created by Ajay on 24-Sep-16.
  * https://www.hackerrank.com/challenges/halloween-party
