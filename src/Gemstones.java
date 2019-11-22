@@ -11,14 +11,14 @@ public class Gemstones {
         Scanner scanner = new Scanner(System.in);
 
         int count = scanner.nextInt();
-        Set<Character> list = new HashSet<Character>();
+        Set<Character> list = new HashSet<>();
         String str = scanner.next();
 
         for(int j=0; j<str.length();j++){
             list.add(str.charAt(j));
         }
 
-        Set<Character> myList = new HashSet<Character>();
+        Set<Character> myList = new HashSet<>();
 
         for(int i = 0; i< count-1; i++){
             myList.clear();
